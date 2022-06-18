@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fondo: #312ac6;
+    --textos: #fff;
+    --montserrat: thin 100;
+    --regular: 400;
+    --bold: bold 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: var(--fondo) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    color: var(--textos);
+    font-family: 'Montserrat', sans-serif;
+}
+.opacidad{
+    background-image: url(./img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    /* text-align: center; */
+    }
+
+    nav {
+        height: 100px;
+        
+    }
+
+    .bokeh-logo {
+        height: 30px;
+        margin: 35px 35px;
+        
+    }
+
+.logo-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.logo-contenedor img{
+    height: 230px;
+}
+
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.h1 { 
+    font-weight: bold;      
+    font-size: 1.7rem;
+    margin: 2em .5em 1.2em;
+}
+
+.p {
+    font-size: .7rem;
+    line-height: 22px;
+    font-weight:400;
+}
+
+.btn {
+    color: var(--fondo);
+    text-transform: uppercase;
+    font-weight: bold;
+    background:var(--textos);
+    height: 35px;
+    width: 10em;
+    margin: 30px auto;
+    border-radius: 2em;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.65);    
+}
