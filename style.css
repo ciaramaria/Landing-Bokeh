@@ -20,22 +20,25 @@ a {
 }
 
 body {
-    background: var(--fondo) ;
+    background-color: #312ac6;
+    
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    max-height: 90vh;
     max-width: 100%;
     color: var(--textos);
     font-family: 'Montserrat', sans-serif;
+    
 }
-.opacidad{
+
+ .opacidad{
     background-image: url(./img/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     max-width: 100%;
-    /* text-align: center; */
-    }
+    
+    } 
 
     nav {
         height: 100px;
@@ -80,13 +83,133 @@ body {
 }
 
 .btn {
+    
     color: var(--fondo);
     text-transform: uppercase;
     font-weight: bold;
     background:var(--textos);
     height: 35px;
     width: 10em;
-    margin: 30px auto;
     border-radius: 2em;
-    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.65);    
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.65); 
+    
 }
+
+.contenedor-btn {
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;  
+}
+
+
+.redes-sociales {
+    /* background: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+    /* height: 200px; */
+    margin-top: ;
+}
+
+.circulo-sociales i{
+    background: whitesmoke;
+    height: 300px;
+    border-radius: 3em;
+
+    border-radius: 2rem; }
+
+    footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+    .redes-sociales i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--fondo);
+    height: 30px;
+    width: 30px;
+    border-radius: 1rem;
+    border: 1px solid #fff;
+    color: white;
+    }
+
+
+    @media screen and (min-width: 1024px) {
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 500px;
+}
+
+
+.logo-contenedor img{
+    height: 310px;
+}
+
+
+
+
+
+
+
+
+
+
+.h1 { 
+
+}
+
+.p {
+    font-size: 1rem;
+    line-height: 17px;
+    font-weight:400;
+    text-align: left;
+
+}
+
+.btn {
+    
+    color: var(--fondo);
+    text-transform: uppercase;
+    font-weight: bold;
+    background:var(--textos);
+    height: 35px;
+    width: 10em;
+    border-radius: 2em;
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.65); 
+    
+}
+
+.contenedor-btn {
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
